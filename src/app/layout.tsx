@@ -5,6 +5,7 @@ import { MotionProvider } from "@/components/motion";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://crossroadstudios.vercel.app"),
   title: {
     default: "Crossroad Studios",
     template: "%s | Crossroad Studios",
